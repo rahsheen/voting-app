@@ -82,7 +82,7 @@ header a ~ p {
 	text-align: center;
 }
 
-#login-btn {
+.login-btn {
 	width: 225px;
 	padding: 7px 5px;
 }
@@ -93,6 +93,11 @@ header a ~ p {
 }
 
 .btn > img {
+	float: left;
+	margin-left: 10px
+}
+
+.btn > i {
 	float: left;
 	margin-left: 10px
 }
@@ -149,6 +154,20 @@ img {
 
 #click-nbr {
 	font-weight: 400;
+}
+
+/**** Vertical Navbar ***/
+
+.navbar-vert {
+    list-style-type: none;
+}
+
+.navbar-vert li a {
+	display: block;
+}
+
+.navbar-vert .login-btn {
+	width: 200px;
 }
 
 /****** Profile Styling ******/
